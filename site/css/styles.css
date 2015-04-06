@@ -1,0 +1,10 @@
+/* nav bar */
+
+#links { text-align: center; }
+#links a {
+	color: #FFF;
+}
+#links a:hover {
+    color: #258faf; 
+}
+
