@@ -14,3 +14,7 @@
 
 .demo img { width: 100%; }
 
+.feature-banner { 
+	text-align: center;
+	margin: 1.2em 0;
+}
