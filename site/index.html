@@ -8,22 +8,14 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
+	<link rel="import" href="header.html" id="header">
 </head>
 
 <body>
-    <nav class="top-bar" data-topbar role="navigation">
-        <section class="top-bar-section">
-            <div class="row" id="links">
-                <a class="column large-3" href="#">Home</a>
-                <a class="column large-3" href="#">Download</a>
-                <a class="column large-3" href="#">Support</a>
-                <a class="column large-3" href="#">Documentation</a>
-            </div>
-        </section>
-    </nav>
-    <div class="row">
-        <div class="large-12 columns">
-            <h1>Welcome to CodeBubbles</h1>
+	<script>document.body.appendChild(document.querySelector('#header').import.querySelector('.top-bar'));</script>
+	<div class="row">
+		<div class="large-12 columns">
+			<h1>Welcome to CodeBubbles</h1>
         </div>
     </div>
     <div class="row">
@@ -176,9 +168,7 @@
     </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
-    <script>
-    $(document).foundation();
-    </script>
+    <script>$(document).foundation();</script>
 </body>
-
+	<script>document.body.appendChild(document.querySelector('#header').import.querySelector('.top-bar'));</script>
 </html>
