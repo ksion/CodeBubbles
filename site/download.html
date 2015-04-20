@@ -18,17 +18,38 @@
 		<div class="large-12 columns">
 			<div class="panel">
 				<h3>Thank you for choosing to download CodeBubbles.</h3>
-				<p>The current version of CodeBubbles is X.Y.Z</p>
+				<p>The current version of CodeBubbles is 0.283</p>
 				<p>CodeBubbles can be obtained by clicking <a href="http://www.cs.brown.edu/people/spr/bubbles/bubbles.jar">here</a>.</p>
-				<p>Before you run this jar file you, you should be familiar with using Eclipse and also have the latest version installed.<br>Instructions for installing and setting up the system are available <a href="http://www.cs.brown.edu/~spr/codebubbles/CodeBubbles_Setup_Guide.html">here</a>. <strong>(Note: Do we need to update installation guide?)</strong></p>
-				<br>
-				<h3>Version X.Y.Z</h3>
-				<ul>
-					<li>Change One</li>
-					<li>Change Two</li>
-					<li>Change Three</li>
-					<li>Change Four</li>
-				</ul>
+				<p class="note">You must have Java SE Development Kit 7 installed for Code Bubbles to work properly. If you are not running Java 7, download and install it <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html">HERE</a>.</p>
+                <p class="note">Eclipse 4.X is recommended but not necessarily required. Code Bubbles has been tested in Eclipse 3.5 and later.</p>
+                <p> 1. Download bubbles.jar <a href="http://www.cs.brown.edu/people/spr/bubbles/bubbles.jar">HERE</a>.</p>
+                <p class="note">We recommend moving bubbles.jar to its own directory. Bubbles.jar downloads additional essential folders into its directory. These folders store javadocs, configuration settings, and more. </p>
+                <p>2. Run Bubbles.jar. The Bubbles Environment Setup will pop up.</p>
+                <img src="img/bubblesenvsetup.png" width="400px" alt="screenshot of the Bubbles Environment Setup" class="setupimg"></img>
+                <p class="note">Bubbles.jar can be run by double clicking it. If you get a "main class not found" error, run the jar in terminal or command line by navigating to the folder it is in and typing <b>java -jar bubbles.jar</b>.</p>
+                <p class="note">If you are having trouble getting Bubbles.jar to run, double check that your Java version is correct.</p>
+                <p>3. Click <b>Browse</b> and select your Eclipse installation directory.</p>
+                <p class="note">Choosing to 'Automatically Update Bubbles' will cause Code Bubbles to check for updates each time it starts up. There is currently no manual update option, but you can get around this by reloading the bubbles.jar file. Reloading the file will configure the new .jar file automatically.</p>
+                <p class="note">'Run Eclipse in Foreground' will start up both Eclipse and Code Bubbles, should you wish to go back and forth between the two. This is not a recommended setting as it is not fully tested. In addition, we strive to make Code Bubbles its own stand-alone environment that has all of Eclipse's features.</p>
+                <p>4. Click <b>Install Bubbles</b>.</p>
+                <p>5. Click <b>Ok</b>. The Bubbles Workspace Setup will pop up.</p>
+                <img src="img/bubbleswkspsetup.png" width="400px" alt="screenshot of the Bubbles Workspace Setup" class="setupimg"></img>
+                <p>6. Click <b>Browse</b>. Select your Eclipse Workspace.</p>
+                <p class="note">If you have not set up a workspace in Eclipse or you wish to create a new workspace, you can select 'Create New Workspace' and point the Eclipse Workspace to the location that you want the new workspace to go.</p>
+                <p class="note">'Always Ask for Workspace' will stop Workspace Setup from appearing when you open Code Bubbles in the future. If you wish to make this your default workspace, check this option.</p>
+                <p>7. Click <b>Ok</b>. User Metrics Options will pop up. </p>
+                <img src="img/bubblesusermetrics.png" width="300px" alt="screenshot of the Bubbles User Metrics options" class="setupimg"></img>
+                <p>8. Select which User Metrics you wish to opt in to sending.</p>
+                <p class="note">Sending user metrics helps the developers to see how Code Bubbles is used and how it can be improved. The collected metrics contain no proprietary information. We recommend at least enabling automatic bug reports.</p>
+                <p>9. Click <b>Ok</b>. Code Bubbles will start up.</p>
+                <img src="img/bubblesstartup.png" width="300px" alt="screenshot of the Bubbles startup page" class="setupimg"></img>
+                <p class="note"> It may take a while for Code Bubbles to start up. It must load Eclipse and symbol tables for your projects. The first time it starts, it must cache JavaDoc information from the web. This can take several minutes depending on the speed of your internet connection.</p>
+                <p>Congratulations, you have successfully started Code Bubbles!</p>
+                <img src="img/bubblesopen.png" width="700px" alt="screenshot of Code Bubbles environment when it is first started up" class="setupimg"></img>
+                
+                
+                <p>
+                
 			</div>
 		</div>
 	</div>
