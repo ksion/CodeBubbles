@@ -8,7 +8,16 @@
 	<link rel="import" href="header.html" id="header">
 </head>
 <body>
-	<script>document.body.appendChild(document.querySelector('#header').import.querySelector('.top-bar'));</script>
+	<nav class="top-bar" data-topbar role="navigation">
+		<section class="top-bar-section">
+			<div class="row" id="links">
+				<a class="column large-3" href="index.html">Home</a>
+				<a class="column large-3" href="download.html">Download</a>
+				<a class="column large-3" href="support.html">Support</a>
+				<a class="column large-3" href="documentation.html">Documentation</a>
+			</div>
+		</section>
+	</nav>
 	<div class="row">
 		<div class="large-12 columns">
 			<h1>Welcome to the Download Page</h1>
