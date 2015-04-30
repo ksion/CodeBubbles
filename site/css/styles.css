@@ -20,8 +20,8 @@
 }
 
 .note {
-    margin: 5px 50px 5px 50px;
-    padding: 5px;
+    margin: 1em 2em 2em;
+    padding: 1em;
     background-color: #eed8ae;
     border: 1px solid grey;
     font-size: .9em;
@@ -30,4 +30,12 @@
 
 .setupimg {
     margin: 5px 50px 5px 50px;
+}
+
+.row.content {
+    margin-top: 2em;
+}
+
+.panel ul {
+    list-style: none;
 }

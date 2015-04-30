@@ -2,36 +2,38 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CodeBubbles | Welcome</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
-	<link rel="import" href="header.html" id="header">
+    <link rel="import" href="header.html" id="header">
 </head>
+
 <body>
-	<nav class="top-bar" data-topbar role="navigation">
-		<section class="top-bar-section">
-			<div class="row" id="links">
-				<a class="column large-3" href="index.html">Home</a>
-				<a class="column large-3" href="download.html">Download</a>
-				<a class="column large-3" href="support.html">Support</a>
-				<a class="column large-3" href="documentation.html">Documentation</a>
-			</div>
-		</section>
-	</nav>
-	<div class="row">
-		<div class="large-12 columns">
-			<h1>Welcome to the Download Page</h1>
-        </div>
-    </div>
-	<div class="row">
-		<div class="large-12 columns">
-			<div class="panel">
-				<h3>Thank you for choosing to download CodeBubbles.</h3>
-				<p>The current version of CodeBubbles is 0.283</p>
-				<p>CodeBubbles can be obtained by clicking <a href="http://www.cs.brown.edu/people/spr/bubbles/bubbles.jar">here</a>.</p>
-				<p class="note">You must have Java SE Development Kit 7 installed for Code Bubbles to work properly. If you are not running Java 7, download and install it <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html">HERE</a>.</p>
-                <p class="note">Eclipse 4.X is recommended but not necessarily required. Code Bubbles has been tested in Eclipse 3.5 and later.</p>
-                <p> 1. Download bubbles.jar <a href="http://www.cs.brown.edu/people/spr/bubbles/bubbles.jar">HERE</a>.</p>
+    <nav class="top-bar" data-topbar role="navigation">
+        <section class="top-bar-section">
+            <div class="row" id="links">
+                <a class="column large-3 small-3" href="index.html">Home</a>
+                <a class="column large-3 small-3" href="download.html">Download</a>
+                <a class="column large-3 small-3" href="documentation.html">Documentation</a>
+                <a class="column large-3 small-3" href="support.html">Support</a>
+            </div>
+        </section>
+    </nav>
+    <div class="row content">
+        <div class="large-12 columns">
+            <div class="panel">
+                <h3>Thank you for choosing to download CodeBubbles.</h3>
+                <p>The current version of CodeBubbles is 0.283</p>
+                
+                <form action="http://www.cs.brown.edu/people/spr/bubbles/bubbles.jar">
+                    <button type="submit">Download CodeBubbles</button>
+                </form>
+
+                <p class="note">You must have Java SE Development Kit 7 installed for Code Bubbles to work properly. If you are not running Java 7, download and install it <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html">here</a>. Eclipse 4.X is recommended but not necessarily required. Code Bubbles has been tested in Eclipse 3.5 and later.</p>
+
+                <h3>Installation Steps</h3>
+                <p> 1. Download bubbles.jar.</p>
                 <p class="note">We recommend moving bubbles.jar to its own directory. Bubbles.jar downloads additional essential folders into its directory. These folders store javadocs, configuration settings, and more. </p>
                 <p>2. Run Bubbles.jar. The Bubbles Environment Setup will pop up.</p>
                 <img src="img/bubblesenvsetup.png" width="400px" alt="screenshot of the Bubbles Environment Setup" class="setupimg"></img>
@@ -56,10 +58,7 @@
                 <p>Congratulations, you have successfully started Code Bubbles!</p>
                 <img src="img/bubblesopen.png" width="700px" alt="screenshot of Code Bubbles environment when it is first started up" class="setupimg"></img>
                 
-                
-                <p>
-                
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+    </div>
 </body>
