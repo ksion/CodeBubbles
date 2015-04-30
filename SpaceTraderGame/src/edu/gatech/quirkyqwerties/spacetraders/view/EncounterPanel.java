@@ -202,7 +202,7 @@ public class EncounterPanel extends JPanel {
 			final Ship pirateShip = pirate.getShip();
 			final int playerDamage = playerShip.getDamageSustained();
 			final int pirateDamage = pirateShip.getDamageSustained();
-
+    
 			if (playerDamage < playerStrength && pirateDamage < pirateStrength){
 				
 				// Attack the pirate

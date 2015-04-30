@@ -8,17 +8,28 @@
     <script src="js/vendor/modernizr.js"></script>
 	<link rel="import" href="header.html" id="header">
 </head>
-<body>
-	<script>document.body.appendChild(document.querySelector('#header').import.querySelector('.top-bar'));</script>
+<body><nav class="top-bar" data-topbar role="navigation">
+    <section class="top-bar-section">
+        <div class="row" id="links">
+            <a class="column large-3" href="index.html">Home</a>
+            <a class="column large-3" href="download.html">Download</a>
+            <a class="column large-2" href="support.html">Support</a>
+            <a class="column large-2" href="overview.html">Overview</a>
+            <a class="column large-2" href="documentation.html">Documentation</a>
+        </div>
+    </section>
+</nav>
 	<div class="row">
 		<div class="large-12 columns">
-			<h1>Code Bubbles Overview</h1>
-			<p>This page outlines the main elements of Code Bubbles to familiarize beginner users with the system.</p>
+			<h1>Welcome to the Overview Page</h1>
+			<p>This page outlines the main elements of CodeBubbles to familiarize beginner users with the system.</p>
         </div>
-        <img src="img/bubblesoverview.png" />q
-		<div class="large-12 columns">
-            Todo: number the sections on the image
-            <h2>Code Bubbles Major Elements</h2>
+        <img src="img/bubblesoverview.png" />
+        
+        <div class="row">
+            <div class="large-12 columns">
+                <div class="panel">
+            <h2>CodeBubbles Major Elements</h2>
 		<div>
             <h3><b>1. Workspace</b></h3>
             <p>Where you will view and edit your code.</p>
@@ -50,6 +61,6 @@
         <div>
             <h3><b>8. Task Menu</b></h3>
             <p>Menu that allows quick access to the refresh, build all, save all, and text search tasks. Opened and closed with F1.</p>
-        </div>
+        </div></div></div>
     </div>
 </body>
